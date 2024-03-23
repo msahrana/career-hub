@@ -33,7 +33,7 @@ const Navbar = () => {
             className={({isActive}) =>
               isActive ? "text-red-500 font-bold" : "font-bold"
             }
-            to="/appliedJobs"
+            to="/applied"
           >
             Applied Jobs
           </NavLink>
