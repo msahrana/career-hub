@@ -21,7 +21,7 @@ const AppliedJob = ({jobInfo}) => {
             className="rounded-lg bg-gray-200 lg:p-8 lg:size-44"
           />
         </div>
-        <div className="flex flex-col lg:flex-row justify-between items-center mx-auto">
+        <div className="flex flex-col lg:flex-row w-full justify-between items-center mx-auto">
           <div className="ml-6 text-start">
             <div className="text-start space-y-2">
               <h2 className="text-3xl font-semibold">{job_title}</h2>

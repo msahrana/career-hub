@@ -1,24 +1,24 @@
+import bannerImg from "../../assets/images/user.png";
+
 const Banner = () => {
   return (
-    <div className="p-6 py-12 dark:bg-violet-400 dark:text-gray-900">
-      <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row items-center justify-between">
-          <h2 className="text-center text-2xl lg:text-6xl tracking-tighter font-bold">
-            Up to <br className="sm:hidden" />
-            50% Off
-          </h2>
-          <div className="space-x-2 text-center py-2 lg:py-0">
-            <span>Plus free shipping! Use code:</span>
-            <span className="font-bold text-lg">MAMBA</span>
-          </div>
-          <a
-            href="#"
-            rel="noreferrer noopener"
-            className="px-5 mt-4 lg:mt-0 py-3 rounded-md border block dark:bg-gray-50 dark:text-gray-900 dark:border-gray-400"
-          >
-            Shop Now
-          </a>
+    <div className="py-8 w-full">
+      <div className="flex flex-col lg:flex-row w-full justify-between">
+        <div>
+          <h1 className="text-5xl font-bold">
+            One Step <br /> Closer To Your <br />{" "}
+            <span className="text-[#a7f3d0]">Dream Job</span>
+          </h1>
+          <p className="py-6">
+            Explore thousands of job opportunities with all the information you
+            need. <br /> Its your future. Come find it. Manage all your job
+            application from start to finish.
+          </p>
+          <button className="btn bg-gradient-to-r from-[#7e90fe] to-[#9873ff] text-white ">
+            Get Started
+          </button>
         </div>
+        <img src={bannerImg} className="rounded-lg w-96" />
       </div>
     </div>
   );
